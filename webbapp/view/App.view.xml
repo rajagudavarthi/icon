@@ -1,0 +1,52 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" 
+controllerName="sap.ui.Walkthrough.controller.App" 
+displayBlock="true">
+<Shell>
+	<App >
+		<pages>
+			<Page title="Pages and Panels">
+				<content>
+					<!--<Panel headerText="Pages and Panels Header with custom classes"-->
+					<!--       class="sapUiResponsiveMargin"-->
+					<!--     	width="auto">-->
+					<!--	<content>-->
+					<!--		<Button text="{i18n>ButtonText}" press="onBtnPress"-->
+						
+					<!--		class="myCustomButton"/>-->
+							
+					<!--	    <Input id="idInput" value="{/button/name}" -->
+				<!--	    valueLiveUpdate="true"-->
+					<!--	    description="{i18n>Complex} {/button/name}" -->
+					<!--	    width="60%"-->
+					<!--	    class ="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>-->
+						  
+					<!--	</content>-->
+						
+					<!--</Panel>-->
+					
+					
+				<mvc:XMLView viewName="sap.ui.Walkthrough.view.HelloPanel"/>
+				
+							
+
+					<!--<Panel headerText="Pages and Panels Header Panel2 with standard classes"-->
+					<!--class="sapUiResponsiveMargin"-->
+					<!--     	width="auto">-->
+					<!--	<content>-->
+					<!--		<Button text="{i18n>ButtonText}" press="onBtnPress"   class="sapUiSmallMarginEnd"/>-->
+					<!--	    <Input id="idInput1" value="{/button/name}" -->
+					<!--	    description="{i18n>Complex} {/button/name}" -->
+					<!--	    valueLiveUpdate="true"-->
+					<!--	    width="60%"-->
+					<!--	    class="sapUiSmallMarginEnd"-->
+					<!--	    ></Input>-->
+					<!--</content>-->
+					<!--</Panel>-->
+					
+					
+				</content>
+			</Page>
+		</pages>
+	</App>
+</Shell>
+</mvc:View>

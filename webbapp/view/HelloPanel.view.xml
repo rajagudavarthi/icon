@@ -1,0 +1,23 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="sap.ui.Walkthrough.controller.HelloPanel">
+	<Panel headerText="Pages and Panels Header" width="auto">
+		<content>
+			<Button text="Text" 
+			press="onBtnPress"/>
+			<Input id="idInput" 
+			value="{/button/name}" 
+			valueLiveUpdate="true" 
+			description="{i18n>Complex} {/button/name}" 
+			width="40%"/>
+			<Button text="FragButton"
+			press="onFragOpen" class="sapUiSmallMarginEnd"/>
+			
+			<Button id="idBtn" text="Click To Add Dynamically">
+			
+			</Button>
+			<Label id="idLab" text="Name :" class="sapUiSmallMargin" />
+			</content>
+	
+	</Panel>
+</mvc:View>
+
+    
